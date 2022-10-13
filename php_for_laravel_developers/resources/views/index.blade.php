@@ -22,7 +22,7 @@
             <th>Id</th>
             <th>Title</th>
             <th>Description</th>
-            <th>Completed</th>
+            <th>Competed</th>
         </tr>
         <?php foreach ()
 
