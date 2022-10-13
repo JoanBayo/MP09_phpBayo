@@ -23,6 +23,6 @@ $statement->execute();
 
 $tasks = $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
 
-var_dump($tasks);
+//var_dump($tasks);
 
 $greeting = greet();

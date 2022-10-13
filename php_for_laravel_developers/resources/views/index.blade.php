@@ -24,7 +24,16 @@
             <th>Description</th>
             <th>Competed</th>
         </tr>
-        <?php foreach ()
+    <?php foreach ($tasks as $task): ?>
+        <tr>
+            <td><?=$task->id;?></td>
+            <td><?=$task->title;?></td>
+            <td><?=$task->description;?></td>
+            <td><?=$task->completed;?></td>
+        </tr>
+    <?php endforeach; ?>
+    </table>
+
 
 </header>
 </body>
