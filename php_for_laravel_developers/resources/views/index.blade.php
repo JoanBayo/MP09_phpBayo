@@ -24,14 +24,8 @@
             <th>Description</th>
             <th>Completed</th>
         </tr>
+        <?php foreach ()
 
-        <tr>
-            <td>1</td>
-            <td>Estudiar PHP</td>
-            <td>dels apunts screencasts</td>
-            <td>1</td>
-        </tr>
-    </table>
 </header>
 </body>
 </html>

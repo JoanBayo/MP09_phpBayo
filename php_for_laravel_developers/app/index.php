@@ -25,6 +25,4 @@ $tasks = $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
 
 var_dump($tasks);
 
-// Minut video https://www.youtube.com/watch?v=s1h0SIt0g3I&list=PLyasg1A0hpk2vR_ocOHavVJiybYoB05pR&index=3&t=2025s
-
 $greeting = greet();
