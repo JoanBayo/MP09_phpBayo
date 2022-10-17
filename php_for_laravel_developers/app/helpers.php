@@ -7,3 +7,10 @@ function greet()  {
 
     return "Hola $name $surname!";
 }
+
+function dd($xivato)
+{
+    //Ho farem servir per comprovar
+    var_dump($xivato);
+    die();
+}
