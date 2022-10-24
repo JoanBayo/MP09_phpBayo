@@ -6,11 +6,11 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\Models\\task' => $baseDir . '/app/Models/Task.php',
+    'App\\Models\\Task' => $baseDir . '/app/Models/Task.php',
     'ComposerAutoloaderInit6fcebcc4e68c05c87c62267b92a94065' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
     'Composer\\Autoload\\ComposerStaticInit6fcebcc4e68c05c87c62267b92a94065' => $vendorDir . '/composer/autoload_static.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'Database' => $baseDir . '/framework/Database/Database.php',
     'Framework\\Database\\Connection' => $baseDir . '/framework/Database/Connection.php',
+    'Framework\\Database\\Database' => $baseDir . '/framework/Database/Database.php',
 );

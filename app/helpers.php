@@ -1,7 +1,5 @@
 <?php
 
-//QUERY STRING (llegir del http)
-use App\Models\task;
 
 function greet()  {
     $name = htmlspecialchars($_GET['name']);
@@ -18,11 +16,3 @@ function dd($xivato)
 }
 
 
-function fetchAllTasks($dbh){
-    $statement = $dbh->prepare('SELECT * FROM tasks;');
-
-    $statement->execute();
-
-    return $statement->fetchAll(PDO::FETCH_CLASS, Task::class);
-
-}

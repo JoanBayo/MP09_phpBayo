@@ -7,13 +7,13 @@ namespace Composer\Autoload;
 class ComposerStaticInit6fcebcc4e68c05c87c62267b92a94065
 {
     public static $classMap = array (
-        'App\\Models\\task' => __DIR__ . '/../..' . '/app/Models/Task.php',
+        'App\\Models\\Task' => __DIR__ . '/../..' . '/app/Models/Task.php',
         'ComposerAutoloaderInit6fcebcc4e68c05c87c62267b92a94065' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit6fcebcc4e68c05c87c62267b92a94065' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Database' => __DIR__ . '/../..' . '/framework/Database/Database.php',
         'Framework\\Database\\Connection' => __DIR__ . '/../..' . '/framework/Database/Connection.php',
+        'Framework\\Database\\Database' => __DIR__ . '/../..' . '/framework/Database/Database.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

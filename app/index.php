@@ -1,5 +1,6 @@
 <?php
 
+use Framework\Database\Database;
 
 require 'config.php';
 
