@@ -13,11 +13,11 @@ class Database
     public function __construct($config)
     {
         $this->config = $config;
-        $this->connection = new Connection($config);
+        $this->connection = Connection::make($config);
     }
 
     function selectAll($table){
-        $dbh = $this->connection->connectDB($this -> config);
+        $dbh = $this->connection->connectDB();
         $statement = $dbh->prepare("SELECT * FROM $table;");
 
         $statement->execute();

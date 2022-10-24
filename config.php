@@ -1,6 +1,6 @@
 <?php
 
-$config = [
+return [
     'database' => [
         'user' => 'phpforlaravel',
         'password' => 'kLirG9VnCFCgphmR',
