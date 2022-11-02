@@ -12,14 +12,14 @@ class Connection
     public static function make($config)
     {
         static::$config = $config;
-        try {
+//        try {
             return new PDO(
                 ($config['databasetype']) . ":host=" .
                 ($config['host']) . ";dbname=" .
                 ($config['name']) . "", $config['user'],
                 $config['password']);
-        } catch (\Exception $e) {
-            echo $e;
-        }
+//        } catch (\Exception $e) {
+//            echo $e;
+//        }
     }
 }
