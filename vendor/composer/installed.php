@@ -3,7 +3,7 @@
         'name' => 'alumne/php_for_laravel_developers',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '37c0e5013c2d97e27874e5aee09d847e5c01ed07',
+        'reference' => '745e1638c84d2835db2d740db14014acd915710c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'alumne/php_for_laravel_developers' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '37c0e5013c2d97e27874e5aee09d847e5c01ed07',
+            'reference' => '745e1638c84d2835db2d740db14014acd915710c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
