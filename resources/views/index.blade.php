@@ -9,7 +9,6 @@
         </header>
     <main class="-mt-32">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h1 class="mt-10 mb-5"><?=$greeting;?></h1>
             <div class="px-4 sm:px-6 lg:px-8">
             <div class="sm:flex sm:items-center">
                 <div class="sm:flex-auto">
@@ -17,7 +16,7 @@
                 <div class="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
                 </div>
             </div>
-            <div class="mt-8 flex flex-col">
+            <div class="mt-40 flex flex-col">
                 <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
                         <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
@@ -41,7 +40,7 @@
                                     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"><?=$task->description;?></td>
                                     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500"><?=$task->completed;?></td>
                                     <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
-                                        <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Lindsay Walton</span></a>
+                                        <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only"></span></a>
                                     </td>
                                 </tr>
                                 <?php endforeach; ?>

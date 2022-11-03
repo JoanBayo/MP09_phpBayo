@@ -8,7 +8,12 @@
             <h1 class="text-3xl font-bold tracking-tight text-white">About</h1>
         </div>
     </header>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolor dolorem ex explicabo harum maiores maxime modi, molestias non numquam officia praesentium quae quam recusandae reiciendis saepe sed sunt totam?
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolor dolorem ex explicabo harum maiores maxime modi, molestias non numquam officia praesentium quae quam recusandae reiciendis saepe sed sunt totam?</p>
+
+    </div>
+
 </div>
 
 <?php require '../resources/views/layout/footer.blade.php'; ?>
