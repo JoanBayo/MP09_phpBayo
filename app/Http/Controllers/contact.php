@@ -1,3 +1,3 @@
 <?php
 
-require 'resources/views/contact.blade.php';
+require '../resources/views/contact.blade.php';
